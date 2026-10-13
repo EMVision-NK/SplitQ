@@ -1,7 +1,6 @@
 <div align="center">
 
-# SplitQ
-### Breaking Modality Heterogeneity in Low-Bit Quantization for Large Vision-Language Models
+## Breaking Modality Heterogeneity in Low-Bit Quantization for Large Vision-Language Models
 
 Yi Zhong · Haotong Qin · Xindong Zhang · Lei Zhang · Guolei Sun
 
