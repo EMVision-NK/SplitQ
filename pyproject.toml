@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splitq"
+version = "1.0.0"
+description = "SplitQ research calibration and fake-quantized VLM evaluation"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["torch>=2.4", "numpy", "scipy", "Pillow", "PyYAML", "accelerate", "safetensors"]
+
+[project.scripts]
+splitq-calibrate = "splitq.calibrate:main"
+splitq-evaluate = "splitq.evaluate:main"
+splitq-eval-queue = "splitq.eval_queue:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

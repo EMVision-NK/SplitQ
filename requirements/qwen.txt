@@ -1,0 +1,15 @@
+# Qwen2.5-VL dependencies. Use a separate environment from LLaVA.
+torch==2.4.0
+torchvision==0.19.0
+transformers @ git+https://github.com/huggingface/transformers.git@d4895f0810fd57bf5ee8cf65c3fe20d2f622cd0a
+qwen-vl-utils==0.0.14
+accelerate==1.13.0
+PyYAML==6.0.3
+scipy==1.15.3
+numpy==1.26.4
+Pillow==12.1.1
+tokenizers==0.22.2
+safetensors==0.7.0
+datasets==2.17.1
+huggingface-hub==1.7.2
+peft==0.18.1
