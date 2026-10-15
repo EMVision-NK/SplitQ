@@ -1,2 +1,0 @@
-# Install the pinned lmms-eval integration with --no-deps.
-lmms_eval @ git+https://github.com/LSY-noya/lmms-eval.git@9c030a5932b6d340ff58611339415a74f5ed4b6f

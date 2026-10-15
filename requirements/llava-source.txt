@@ -1,1 +1,0 @@
-llava @ git+https://github.com/LSY-noya/LLaVA-NeXT.git@1a7e8b2b4880f7548c1883669302a8b36bd79df6
