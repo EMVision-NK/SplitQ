@@ -61,8 +61,8 @@ The source integrations are pinned to specific commits and installed with `--no-
 
 ### Prepare models and data
 
-- Qwen: [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct).
-- LLaVA: the native [LLaVA-v1.5-7B](https://huggingface.co/liuhaotian/llava-v1.5-7b) checkpoint and its [CLIP vision tower](https://huggingface.co/openai/clip-vit-large-patch14-336), not the converted `llava-hf` checkpoint.
+- Qwen: [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) and [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct).
+- LLaVA: [LLaVA-v1.5-7B](https://huggingface.co/liuhaotian/llava-v1.5-7b) and [LLaVA-v1.5-13B](https://huggingface.co/liuhaotian/llava-v1.5-13b).
 - Calibration: [ShareGPT4V](https://github.com/ShareGPT4Omni/ShareGPT4V) conversations and the corresponding images. `--image-folder` must resolve the image paths in the JSON records.
 
 Replace the paths below with your local files. The default configuration uses **W4A4**, 256 samples, 15 epochs and seed 42.
